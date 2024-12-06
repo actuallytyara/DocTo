@@ -1,0 +1,75 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.form-edit-box {
+    max-width: 400px;
+    margin: 160px auto; /* Membuat kotak terpusat di tengah */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-edit-box-item {
+    margin-bottom: 15px;
+}
+
+.form-edit-box-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.form-edit-box-item input[type="text"],
+.form-edit-box-item input[type="password"]
+.form-edit-box-item input[type="email"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-edit-box-level {
+    margin-bottom: 15px;
+}
+
+.form-edit-box-level label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.form-edit-box-item input[type="email"] {
+    vertical-align: middle;
+}
+
+.form-edit-box-level input[type="radio"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.form-edit-box-button input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form-edit-box-button input[type="submit"]:hover {
+    background-color: #45a049;
+}
