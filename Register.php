@@ -37,7 +37,7 @@
                     </tr>
                     <tr>
                         <td>email</td>
-                        <td><input type="email" name="email" placeholder="Isi email anda" required></td>
+                        <td><input type="text" name="email" placeholder="Isi email anda" required></td>
                     </tr>
                     <tr>
                         <td><button class="tombol_login" name="submit"> Daftar</button></td>
